@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atushi1841/kensho"
+    "url": "https://github.com/atushi1841/kensho-apify"
   },
-  "homepage": "https://github.com/atushi1841/kensho",
+  "homepage": "https://github.com/atushi1841/kensho-apify",
   "server": {
     "type": "python",
     "entry_point": "server.py",

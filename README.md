@@ -33,10 +33,10 @@ smithery install @atushi1841/kensho-apify
 
 ## More MCP Servers
 
-- **[kensho-kaku](https://github.com/atushi1841/kensho/tree/main/mcp/kensho-kaku)** — Sweepstakes from ken-kaku.com
-- **[kensho-kclub](https://github.com/atushi1841/kensho/tree/main/mcp/kensho-kclub)** — Sweepstakes from kenshou.club
-- **[kensho-kema](https://github.com/atushi1841/kensho/tree/main/mcp/kensho-kema)** — Sweepstakes from ke-ma.net
-- **[tcg-price-japan](https://github.com/atushi1841/kensho/tree/main/mcp/tcg-price-japan)** — TCG used-price trends
+- **[kensho-kaku](https://github.com/atushi1841/kensho-kaku)** — Sweepstakes from ken-kaku.com
+- **[kensho-kclub](https://github.com/atushi1841/kensho-kclub)** — Sweepstakes from kenshou.club
+- **[kensho-kema](https://github.com/atushi1841/kensho-kema)** — Sweepstakes from ke-ma.net
+- **[tcg-price-japan](https://github.com/atushi1841/tcg-price-japan)** — TCG used-price trends
 
 ## Run
 
