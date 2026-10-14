@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.atushi1841/kensho-apify",
+  "description": "Apify Actor MCP server for on-demand Japanese market data. 55 actors covering Mercari, Yahoo Auctions, Rakuten, SUUMO, Tabelog.",
+  "repository": {
+    "url": "https://github.com/atushi1841/kensho-apify",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "title": "Kensho Apify Actors MCP",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/atushi1841/kensho-apify/releases/download/v1.0.0/server.mcpb",
+      "version": "1.0.0",
+      "fileSha256": "930f60e007521a70ce6579b6d2c3d9c043c68104b3701bb1e521c55ca4721e1e",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
