@@ -18,5 +18,71 @@
         "type": "stdio"
       }
     }
+  ],
+  "tools": [
+    {
+      "name": "list_actors",
+      "description": "List all Apify actors available to the user."
+    },
+    {
+      "name": "run_actor",
+      "description": "Run an Apify actor with input parameters and return the run ID.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "actor_id": {
+            "type": "string",
+            "description": "The actor ID or slug to run"
+          },
+          "input_data": {
+            "type": "object",
+            "description": "Input parameters for the actor"
+          },
+          "timeout_seconds": {
+            "type": "integer",
+            "description": "Wait time in seconds (default 300)"
+          }
+        },
+        "required": [
+          "actor_id"
+        ]
+      }
+    },
+    {
+      "name": "get_run",
+      "description": "Get status of an Apify actor run.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "run_id": {
+            "type": "string",
+            "description": "The run ID to check"
+          }
+        },
+        "required": [
+          "run_id"
+        ]
+      }
+    },
+    {
+      "name": "get_dataset",
+      "description": "Get items from an Apify actor run's dataset.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "run_id": {
+            "type": "string",
+            "description": "The run ID"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Max items to return (default 100)"
+          }
+        },
+        "required": [
+          "run_id"
+        ]
+      }
+    }
   ]
 }
