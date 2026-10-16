@@ -2,7 +2,7 @@
   "manifest_version": "0.4",
   "name": "kensho-apify",
   "display_name": "Kensho Apify Actors MCP",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server that wraps Apify Actors for on-demand Japanese market data fetching. Tools: list_actors, run_actor, get_run, get_dataset.",
   "long_description": "Apifyの.actorを実行して日本語市場データを取得するMCPサーバーです。\n\n## 提供ツール\n\n| ツール | 内容 |\n|---|---|\n| `list_actors()` | 利用可能なApify actor一覧を取得 |\n| `run_actor(actor_id, input_data)` | Apify actorを実行 |\n| `get_run(run_id)` | 実行ステータスを取得 |\n| `get_dataset(run_id, limit)` | データセットからアイテムを取得 |\n\n## データソース\n\n- メルカリ検索結果\n- ヤフオク!落札価格\n- 楽天市場商品\n- SUUMO不動産\n- 食べログレビュー\n\n## 動作要件\n\n- `APIFY_TOKEN` 環境変数が必要\n- Python 3.10以上\n\n## インストール\n\n```bash\nsmithery install @atushi1841/kensho-apify\n```",
   "author": {
