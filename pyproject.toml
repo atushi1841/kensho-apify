@@ -1,6 +1,6 @@
 [project]
 name = "kensho-apify"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server that wraps Apify Actors for on-demand Japanese market data fetching"
 readme = "README.md"
 requires-python = ">=3.10"
