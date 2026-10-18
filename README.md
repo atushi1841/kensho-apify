@@ -45,3 +45,9 @@ export APIFY_TOKEN=apify_api_xxx
 python server.py          # stdio MCP transport
 python server.py --http   # streamable-http at /mcp
 ```
+
+---
+## Data & Store
+
+- **Apify Store:** https://apify.com/fruitful_quintessence
+- **Gumroad datasets:** https://atushi5.gumroad.com/l/kutuxe
